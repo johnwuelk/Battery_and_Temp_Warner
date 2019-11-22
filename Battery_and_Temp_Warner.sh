@@ -40,7 +40,7 @@ do
   fi
 
 IFS=$'\n' read -r -a arrayCpuTemp <<< "$outputCpuTemp"
-if [[ arrayCpuTemp -gt 40 ]] #check if cpu temp over 80 °C
+if [[ arrayCpuTemp -gt 80 ]] #check if cpu temp over 80 °C
 then
   cpuTempNotify="CPU has reached "
   cpuTempNotify+="$arrayCpuTemp"
