@@ -20,7 +20,7 @@ do
 outputBattery=$(eval $battery)
 outputCpuTemp=$(eval $cpuTemp)
 
-  if [[ $outputBattery == *"Full"* ]] #check if plugged in
+  if [[ $outputBattery == *"Discharging"* ]] #check if plugged in
   then
     #echo "Battery discharging."
     #write output into array with space as delimiter
