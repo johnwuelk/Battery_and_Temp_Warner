@@ -13,12 +13,12 @@
 
 battery="acpi | head -n 1"
 cpuTemp="sensors | grep -A 0 'CPU' | grep -o '[0-9]\+'"
-outputBattery=$(eval $battery)
-outputCpuTemp=$(eval $cpuTemp)
-#echo $'\n'
 
 while true #loop forever
 do
+
+outputBattery=$(eval $battery)
+outputCpuTemp=$(eval $cpuTemp)
 
   if [[ $outputBattery == *"Full"* ]] #check if plugged in
   then
