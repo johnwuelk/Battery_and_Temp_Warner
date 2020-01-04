@@ -7,7 +7,7 @@ when the CPU temperature is too high.
 The limits can be changed/reset in the code if desired:
 $number -gt XX for battery and arrayCpuTemp -gt XX for CPU temp
 
-acpi and lm-sensors and zenity should be installed.
+```acpi```, ```lm-sensors``` and ```zenity``` should be installed.
 
 
 
