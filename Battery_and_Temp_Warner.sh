@@ -8,8 +8,8 @@ export LANG=en_US.UTF-8
 #                   The limits can be changed/reset in the code if desired.
 #                   ($number -gt XX for battery and arrayCpuTemp -gt XX for CPU temp)
 #Args         :
-#Author       :Johannes Bottex-Wülk
-#Email        :johnwuelk@yahoo.de
+#Author       :Johannes Wülk
+#Email        :johnwuelk@gmail.com
 ###################################################################
 
 battery="acpi | grep -o 'Discharging.*%'"
